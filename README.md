@@ -5,9 +5,9 @@
 ### This project can be run locally by cloning the repository and running the command npm start in your terminal
 
 #### There are dependancies this project relies on and must be listed in .env file such as: 
-REACT_APP_GOOGLE_ID
-REACT_APP_FACEBOOK_ID
-REACT_APP_GET_TESTIMONIALS
+REACT_APP_GOOGLE_ID\
+REACT_APP_FACEBOOK_ID\
+REACT_APP_GET_TESTIMONIALS\
 
 You can check the live preview on https://bgeorgieff.github.io/key-replacement
 
