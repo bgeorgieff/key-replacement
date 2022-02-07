@@ -1,0 +1,76 @@
+//Location
+.location-bg {
+  position: relative;
+  &::after {
+    position: absolute;
+    background-image: url("../../../../assets/images/anna-berdnik-0n0AHB1fgTQ.png");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 494px;
+    width: 100%;
+    content: "";
+    top: -25%;
+    right: 5%;
+    z-index: -1;
+    @media screen and(max-width: 1200px) {
+      right: 0;
+    }
+  }
+  &::before {
+    position: absolute;
+    background-image: url("../../../../assets/icons/location-big.svg");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 337px;
+    width: 230px;
+    content: "";
+    top: -7%;
+    right: 20%;
+    z-index: 0;
+    @media screen and(max-width: 992px) {
+      right: 0;
+      left: 0;
+      margin: 0 auto;
+      transform: scale(0.6) translateY(-5rem);
+      z-index: 1;
+    }
+    @media screen and(max-width: 572px) {
+      transform: scale(0.5) translateY(-3rem);
+    }
+  }
+}
+
+.dateContainer {
+  background-color: #2d69b3;
+  width: 90%;
+  height: 111px;
+  border-radius: 16px;
+  .dateTxt {
+    color: white;
+    line-height: 24px;
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .dateAndTime {
+    color: #2d69b3 !important;
+    border: 1px solid #2d69b3;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 240px;
+    background-image: url("../../../../assets/icons/down-arrow-step-2.svg");
+    &::placeholder {
+      /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: #2d69b3 !important;
+    }
+    &::-ms-input-placeholder {
+      /* Internet Explorer 10-11 */
+      color: #2d69b3 !important;
+    }
+    &::-ms-input-placeholder {
+      /* Microsoft Edge */
+      color: #2d69b3 !important;
+    }
+  }
+}
