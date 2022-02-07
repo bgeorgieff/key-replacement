@@ -2,7 +2,7 @@
 
 ## Simple E-commerce project with multiple booking steps
 
-### This project can be run locally by cloning the repository and running the command npm start in your terminal
+### This project can be run locally by cloning the repository and running the command npm start in your terminal\ It was part of my Front-End internship program.\ This wasn't a group project but a personal one. 
 
 #### There are dependancies this project relies on and must be listed in .env file such as: 
 REACT_APP_GOOGLE_ID\
