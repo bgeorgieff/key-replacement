@@ -7,24 +7,24 @@
 #### There are dependancies this project relies on and must be listed in .env file such as: 
 REACT_APP_GOOGLE_ID\
 REACT_APP_FACEBOOK_ID\
-REACT_APP_GET_TESTIMONIALS\
+REACT_APP_GET_TESTIMONIALS
 
 You can check the live preview on https://bgeorgieff.github.io/key-replacement
 
 ### Additional used packages:
-axios
-bootstrap
-clsx
-connected-react-router
-node-sass
-prop-types
-react-facebook-login,
-react-google-login
-react-hook-form
-react-hook-inview
-react-redux
-react-router-dom
-react-slick
-redux
-redux-thunk
+axios\
+bootstrap\
+clsx\
+connected-react-router\
+node-sass\
+prop-types\
+react-facebook-login\
+react-google-login\
+react-hook-form\
+react-hook-inview\
+react-redux\
+react-router-dom\
+react-slick\
+redux\
+redux-thunk\
 slick-carousel
