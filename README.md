@@ -9,7 +9,7 @@ REACT_APP_GOOGLE_ID\
 REACT_APP_FACEBOOK_ID\
 REACT_APP_GET_TESTIMONIALS
 
-##### Mobile friendly
+##### The project is mobile friendly
 
 You can check the live preview on https://bgeorgieff.github.io/key-replacement
 
